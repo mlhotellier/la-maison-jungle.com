@@ -1,7 +1,6 @@
 import CareScale from "./CareScale";
 import "../styles/PlantItem.css";
 
-
 function handleClick(plantName) {
 	alert(`Vous voulez acheter 1 ${plantName}? Très bon choix 🌱✨`)
 }

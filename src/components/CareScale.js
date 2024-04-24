@@ -13,7 +13,7 @@ function handleClick(scaleValue, careType) {
     require = "beaucoup"
   }
   
-  console.log(`Cette plante requiert ${require} d${careType === "light" ? "e lumière" : "'arrosage"}.`)
+  alert(`Cette plante requiert ${require} d${careType === "light" ? "e lumière" : "'arrosage"}.`)
 }
 
 function CareScale({ scaleValue, careType }) {

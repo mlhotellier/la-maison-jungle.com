@@ -1,8 +1,8 @@
+import { useState } from "react";
 import { plantList } from "../datas/plantList";
-import "../styles/ShoppingList.css";
 import PlantItem from "./PlantItem";
 import Categories from "./Categories";
-import { useState } from "react";
+import "../styles/ShoppingList.css";
 
 function ShoppingList({ cart, updateCart }) {
   const [categorySelected, setCategorySelected] = useState("");

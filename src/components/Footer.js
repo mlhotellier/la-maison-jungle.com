@@ -18,7 +18,6 @@ function Footer() {
       alert("L'email saisie n'est pas correcte.");
       return;
     }
-    console.log(value);
     alert(`Soumission de l'adresse mail : ${value} à notre équipe.`);
     setInputValue("");
   }
